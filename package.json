@@ -1,0 +1,19 @@
+{
+  "name": "ts-biome-esbuild-denolint-yarn",
+  "version": "1.0.0",
+  "description": "a simple peformant typescript template for personal projects",
+  "main": "out/bundle.js",
+  "author": "jake <jakewdr@proton.me>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "esbuild": "^0.24.0",
+    "typescript": "^5.6.3"
+  },
+  "scripts": {
+    "start": "yarn check && yarn bundle && node --wasm-opt out/bundle.js",
+    "bundle": "node esbuild.mjs",
+    "check": "yarn biome check --write src/"
+  }
+}

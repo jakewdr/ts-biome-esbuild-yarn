@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "outDir": "out",
+        "module": "ES6",
+        "target": "ES6",
+        "moduleResolution": "Classic",
+        "sourceMap": false,
+        "removeComments": true,
+        "esModuleInterop": true,
+        "disableSizeLimit": true,
+        "preserveConstEnums": true
+    },
+    "include": ["src/*.ts"]
+}
