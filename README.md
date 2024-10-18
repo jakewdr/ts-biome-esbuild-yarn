@@ -1,2 +1,2 @@
-# ts-biome-esbuild-denolint-yarn
+# ts-biome-esbuild-yarn
  a simple typescript template for personal projects
