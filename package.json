@@ -1,5 +1,5 @@
 {
-  "name": "ts-biome-esbuild-denolint-yarn",
+  "name": "ts-biome-esbuild-yarn",
   "version": "1.0.0",
   "description": "a simple performant typescript template for personal projects",
   "main": "out/bundle.js",
