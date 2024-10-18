@@ -1,7 +1,7 @@
 {
   "name": "ts-biome-esbuild-denolint-yarn",
   "version": "1.0.0",
-  "description": "a simple peformant typescript template for personal projects",
+  "description": "a simple performant typescript template for personal projects",
   "main": "out/bundle.js",
   "author": "jake <jakewdr@proton.me>",
   "license": "MIT",
